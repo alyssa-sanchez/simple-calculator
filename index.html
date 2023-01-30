@@ -7,9 +7,26 @@
 		<title>Calculator</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="simple.css" />
 	</head>
 	<body>
 		<div class="container">
+			<!-- simple -->
+			<div class="container-simple">
+				<!-- use for equations -->
+				<div class="equations">
+					<p>Use + for plus</p>
+					<p>Use - for minus</p>
+					<p>Use * for multiply</p>
+					<p>Use / for divide</p>
+					<p>Example 2 + 5</p>
+				</div>
+				<div class="simple">
+					<input type="text" id="input" placeholder="2+5" />
+					<button id="equal">=</button>
+					<p id="result">Result:</p>
+				</div>
+			</div>
 			<div class="calculator">
 				<form>
 					<div class="display">
@@ -54,4 +71,6 @@
 			</div>
 		</div>
 	</body>
+
+	<script src="app.js"></script>
 </html>
