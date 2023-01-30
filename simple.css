@@ -34,3 +34,19 @@
 #result {
 	color: whitesmoke;
 }
+
+@media (max-width: 480px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 20px;
+	}
+	.container-simple {
+		margin-top: 50px;
+	}
+	.calculator {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+}
